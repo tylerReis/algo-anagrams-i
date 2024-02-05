@@ -1,6 +1,6 @@
 var ana = require("./characterMatch");
 
-// Part 1
+// // Part 1
 console.log(ana.isCharacterMatch('charm', 'march') === true);
 console.log(ana.isCharacterMatch('zach', 'attack') === false);
 console.log(ana.isCharacterMatch('CharM', 'mARcH') === true);
